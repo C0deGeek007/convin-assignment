@@ -1,0 +1,9 @@
+.home-container {
+    height: 100vh;
+    padding:1% ;
+}
+
+.create-card-container {
+    display: flex;
+    flex-direction: row-reverse;
+}

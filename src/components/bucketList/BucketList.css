@@ -1,0 +1,20 @@
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.video-link-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.video-link-container>span {
+    width: 70%;
+    text-overflow: clip;
+    word-wrap: break-word;
+}
+
+.video-link-container>span:hover {
+    cursor: pointer;
+}

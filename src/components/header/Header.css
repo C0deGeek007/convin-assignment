@@ -1,0 +1,33 @@
+
+
+header {
+    height: 3rem;
+}
+
+.header-container {
+    background-color: #18171d;
+    height: 100%;
+}
+
+nav {
+    padding: 0.5rem;
+}
+
+ul, .navigation-container {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.navigation-container {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li,li>* {
+    text-decoration: none;
+    color: #c3c8cf;
+}
